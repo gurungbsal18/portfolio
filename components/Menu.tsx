@@ -1,8 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Button } from "@heroui/button";
-import { VscGitPullRequestGoToChanges } from "react-icons/vsc";
-import { HiOutlineClipboardDocumentList } from "react-icons/hi2";
+import { CgFileDocument } from "react-icons/cg";
 import { ThemeSwitch } from "./theme-switch";
 import Link from "next/link";
 import { IoCloudDownloadOutline } from "react-icons/io5";
@@ -29,7 +28,7 @@ export default function Menu() {
           </Button> */}
           <Link href={"/documents/Bishal-Gurung-CV.pdf"} target="_blank">
             <Button radius="sm" color="primary" className="flex items-center">
-              <VscGitPullRequestGoToChanges size={24} /> View CV
+              <CgFileDocument size={24} /> View CV
             </Button>
           </Link>
           <Link download={"/documents/Bishal-Gurung-CV.pdf"} href={""}>
@@ -71,7 +70,7 @@ export default function Menu() {
                     color="primary"
                     className="flex items-center w-full"
                   >
-                    <VscGitPullRequestGoToChanges size={24} /> Request CV
+                    <CgFileDocument size={24} /> View CV
                   </Button>
                 </Link>
                 <Link
