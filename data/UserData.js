@@ -136,7 +136,7 @@ export const ProjectData = [
     id: 1,
     title: "Alpine Club Of Himalaya",
     category: "Website",
-    coverImage: "/images/projects/alpine.webp",
+    coverImage: "/images/projects/Alpine-website.webp",
     link: "https://alpine-club-of-himalaya.vercel.app/",
   },
   {
