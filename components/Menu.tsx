@@ -29,7 +29,7 @@ export default function Menu() {
           </Button> */}
           <Link href={"/documents/Bishal-Gurung-CV.pdf"} target="_blank">
             <Button radius="sm" color="primary" className="flex items-center">
-              <VscGitPullRequestGoToChanges size={24} /> Request CV
+              <VscGitPullRequestGoToChanges size={24} /> View CV
             </Button>
           </Link>
           <Link download={"/documents/Bishal-Gurung-CV.pdf"} href={""}>
