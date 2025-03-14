@@ -24,9 +24,9 @@ export default function Menu() {
         {/* <h1 className="text-2xl font-bold text-primary">Bishal Gurung</h1> */}
         <Image src="/Logo.png" alt="bishal" height={150} width={150} />
         <div className="hidden lg:flex gap-2">
-          <Button radius="sm" color="primary">
+          {/* <Button radius="sm" color="primary">
             <HiOutlineClipboardDocumentList size={24} /> Explore Projects
-          </Button>
+          </Button> */}
           <Link href={"/documents/Bishal-Gurung-CV.pdf"} target="_blank">
             <Button radius="sm" color="primary" className="flex items-center">
               <VscGitPullRequestGoToChanges size={24} /> Request CV

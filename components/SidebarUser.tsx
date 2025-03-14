@@ -37,7 +37,7 @@ export default function SidebarUser() {
                 Contact Me
               </Button>
             </Link>
-            <Link href={e.whatsApp}>
+            <Link href="mailto:gurungbsal18@gmail.com">
               <Button radius="sm" size="lg" className="w-full" color="default">
                 <MdMarkEmailRead size={24} />
                 Email Me
