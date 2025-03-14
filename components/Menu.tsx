@@ -8,6 +8,7 @@ import Link from "next/link";
 import { IoCloudDownloadOutline } from "react-icons/io5";
 import { IoMdMenu } from "react-icons/io";
 import { MdOutlineClose } from "react-icons/md";
+import Image from "next/image";
 
 export default function Menu() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,7 +21,8 @@ export default function Menu() {
   return (
     <div className="sticky top-0 bg-white shadow-md z-10">
       <div className="container py-4 px-8 flex justify-between items-center w-full">
-        <h1 className="text-2xl font-bold">Bishal</h1>
+        {/* <h1 className="text-2xl font-bold text-primary">Bishal Gurung</h1> */}
+        <Image src="/Logo.png" alt="bishal" height={150} width={150} />
         <div className="hidden lg:flex gap-2">
           <Button radius="sm" color="primary">
             <HiOutlineClipboardDocumentList size={24} /> Explore Projects

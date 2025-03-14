@@ -1,4 +1,5 @@
 import MainContainer from "@/components/mainContainer/MainContainer";
+import ScrollToTop from "@/components/ScrollToTop";
 import SidebarUser from "@/components/SidebarUser";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
           <MainContainer />
         </div>
       </div>
+      <ScrollToTop />
     </>
   );
 }
