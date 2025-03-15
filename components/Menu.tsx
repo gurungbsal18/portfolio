@@ -31,11 +31,7 @@ export default function Menu() {
               <CgFileDocument size={24} /> View CV
             </Button>
           </Link>
-          <Link download={"/documents/Bishal-Gurung-CV.pdf"} href={""}>
-            <Button radius="sm" color="primary" className="flex items-center">
-              <IoCloudDownloadOutline size={24} /> Download CV
-            </Button>
-          </Link>
+
           <ThemeSwitch />
         </div>
 
@@ -71,19 +67,6 @@ export default function Menu() {
                     className="flex items-center w-full"
                   >
                     <CgFileDocument size={24} /> View CV
-                  </Button>
-                </Link>
-                <Link
-                  download={"/documents/Bishal-Gurung-CV.pdf"}
-                  href={""}
-                  className="w-full"
-                >
-                  <Button
-                    radius="sm"
-                    color="primary"
-                    className="flex items-center w-full"
-                  >
-                    <IoCloudDownloadOutline size={24} /> Download CV
                   </Button>
                 </Link>
               </div>
