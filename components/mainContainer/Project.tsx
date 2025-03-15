@@ -12,16 +12,18 @@ export default function Project() {
         {ProjectData.map((list) => (
           <div
             key={list.id}
-            className="border-1 border-gray-200 rounded-lg overflow-hidden shadow-2xl col-span-1 lg:col-span-6"
+            className="border-1 border-gray-200 rounded-lg overflow-hidden shadow-2xl col-span-1 lg:col-span-6 project-card"
           >
             <Link href={list?.link} target="_blank">
-              <Image
-                src={list.coverImage}
-                alt={list.title}
-                height={300}
-                width={300}
-                className="w-full"
-              />
+              <div className="image-section">
+                <Image
+                  src={list.coverImage}
+                  alt={list.title}
+                  height={300}
+                  width={300}
+                  className="w-full"
+                />
+              </div>
               <div className="p-4">
                 <p className="text-primary font-semibold text-lg">
                   {list.title}

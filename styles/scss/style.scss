@@ -12,3 +12,15 @@
   border-radius: 100%;
   object-position: center center;
 }
+
+.project-card {
+  .image-section {
+    overflow: hidden;
+  }
+  &:hover {
+    img {
+      scale: 1.1;
+      transition: ease-in-out 0.5s;
+    }
+  }
+}
