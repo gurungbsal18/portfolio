@@ -111,7 +111,7 @@ export const UserExperienceData = [
     endYear: 2021,
     companyName: "Sarvanam Software Pvt Ltd",
     location: "Nepal",
-    position: "UI/UX Designer / Web Designer",
+    position: "Graphic/ Web Designer",
   },
   {
     id: 5,
@@ -120,7 +120,7 @@ export const UserExperienceData = [
     endYear: 2020,
     companyName: "Geetanjali School/College",
     location: "Nepal",
-    position: "Web Designer, UI Designer,  Graphic Designer",
+    position: "Graphic/Web Designer",
   },
   {
     id: 6,
@@ -129,7 +129,7 @@ export const UserExperienceData = [
     endYear: 2019,
     companyName: "Argon Pvt Ltd",
     location: "Nepal",
-    position: "Web Designer, UI Designer, Graphic Designer",
+    position: "Graphic/Web Designer",
   },
 ];
 
