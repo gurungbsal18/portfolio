@@ -2,6 +2,7 @@ import React from "react";
 import SkillsSection from "./SkillsSection";
 import ExperienceHistory from "./ExperienceHistory";
 import Project from "./Project";
+import Responsibilities from "./Responsibilities";
 
 export default function MainContainer() {
   return (
@@ -25,6 +26,7 @@ export default function MainContainer() {
       <SkillsSection />
       <ExperienceHistory />
       <Project />
+      <Responsibilities />
     </div>
   );
 }
