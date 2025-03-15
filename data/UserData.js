@@ -93,7 +93,7 @@ export const UserExperienceData = [
     endYear: 2022,
     companyName: "Adventure Master Trek",
     location: "Nepal",
-    position: "UI/UX Designer / Web Designer",
+    position: "UI/UX Designer",
   },
   {
     id: 3,
@@ -102,7 +102,7 @@ export const UserExperienceData = [
     endYear: 2022,
     companyName: "Alpine Club Of Himalaya",
     location: "Nepal",
-    position: "UI/UX Designer / Web Designer",
+    position: "UI/UX Designer",
   },
   {
     id: 4,
