@@ -10,7 +10,7 @@ export default function Home() {
           <SidebarUser />
         </div>
 
-        <div className="col-span-1 xl:col-span-8">
+        <div className="col-span-1 xl:col-span-8 px-0 xl:px-8">
           <MainContainer />
         </div>
       </div>

@@ -4,13 +4,15 @@ import { BsFiletypeScss } from "react-icons/bs";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill, RiReactjsLine, RiNextjsFill } from "react-icons/ri";
 import { SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
+import { CgFigma } from "react-icons/cg";
+import { SiSass } from "react-icons/si";
 
 export const UserData = [
   {
     img: "/images/bishal-linkedin.webp",
     name: "Bishal Gurung",
     whatsApp: "https://wa.me/+9779818116776 ",
-    position: "UI/UX Designer, Web Designer",
+    position: "Sr. UI/UX Designer, Web Designer",
     gitHubProfile: "https://github.com/gurungbsal18",
     linkedInProfile: "https://www.linkedin.com/in/gurung18/",
   },
@@ -19,8 +21,8 @@ export const UserData = [
 export const userExperienceData = [
   {
     id: 1,
-    skill: "UI/UX Design",
-    icon: <FaFigma size={48} />,
+    skill: "Figma",
+    icon: <CgFigma size={48} />,
   },
   {
     id: 2,
@@ -35,7 +37,7 @@ export const userExperienceData = [
   {
     id: 4,
     skill: "SCSS",
-    icon: <BsFiletypeScss size={48} />,
+    icon: <SiSass size={48} />,
   },
   {
     id: 5,

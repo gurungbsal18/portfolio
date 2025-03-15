@@ -17,7 +17,7 @@ export default function MainContainer() {
           className="text-lg lg:text-4xl font-semibold p-4 py-8 lg:p-16 bg-primary-50 rounded-3xl shadow-lg text-center"
           style={{ lineHeight: "1.5" }}
         >
-          I design and code beautifully simple things and I love what i do. Just
+          I design, code beautifully simple things and I love what i do. Just
           simple like that!
         </h4>
       </div>
