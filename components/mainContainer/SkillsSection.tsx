@@ -3,7 +3,6 @@ import { userExperienceData } from "@/data/UserData";
 import React from "react";
 import { motion } from "framer-motion";
 import { Tooltip } from "@heroui/tooltip";
-import { Button } from "@heroui/button";
 import { BsInfoCircle } from "react-icons/bs";
 
 export default function SkillsSection() {

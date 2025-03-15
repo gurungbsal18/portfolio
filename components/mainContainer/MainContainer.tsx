@@ -4,7 +4,7 @@ import SkillsSection from "./SkillsSection";
 import ExperienceHistory from "./ExperienceHistory";
 import Project from "./Project";
 import { FaHand } from "react-icons/fa6";
-import { m, motion } from "framer-motion";
+import { m, motion, Variants } from "framer-motion";
 
 export default function MainContainer() {
   const mainContainer = {
@@ -22,13 +22,13 @@ export default function MainContainer() {
     },
   };
 
-  const handMotion = {
-    handAnimation: {
-      x: [0, 4, -4, 0],
-      rotate: [0, 10, -10, 0],
+  const handMotion: Variants = {
+    waving: {
+      x: [0, 4, -4, 0], // Horizontal movement
+      rotate: [0, 10, -10, 0], // Rotation for waving effect
       transition: {
-        repeat: Infinity,
-        repeatType: "loop",
+        repeat: Infinity, // Infinite loop
+        repeatType: "mirror", // Smooth wave effect
         duration: 0.8,
         ease: "easeInOut",
       },
@@ -45,7 +45,7 @@ export default function MainContainer() {
       >
         <h4 className="text-4xl font-bold text-primary flex items-center gap-2">
           Hi{" "}
-          <motion.span variants={handMotion} animate="handAnimation">
+          <motion.span variants={handMotion} animate="waving">
             <FaHand className="text-warning" />
           </motion.span>
         </h4>
