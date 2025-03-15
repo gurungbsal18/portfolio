@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { UserData } from "@/data/UserData";
 import { Button } from "@heroui/button";
@@ -7,10 +8,47 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdMarkEmailRead } from "react-icons/md";
+import { motion } from "framer-motion";
 
 export default function SidebarUser() {
+  const cardVariant = {
+    hidden: {
+      opacity: 0,
+      y: -20,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      duration: 0.5,
+      transition: {
+        duration: 1,
+      },
+    },
+  };
+
+  const animateCard = {
+    animateOne: {
+      y: [0, -10, 0],
+      x: 0,
+      transition: {
+        y: {
+          repeat: Infinity,
+          repeatType: "reverse",
+          duration: 2,
+          ease: "easeInOut",
+        },
+      },
+    },
+  };
+
   return (
-    <div className="p-4 lg:py-16 rounded-3xl user-card relative xl:fixed hover:bg-gray-700 hover:ease-in-out hover:duration-1000 text-white bg-[#212D40] w-100 xl:w-1/4 2xl:w-auto">
+    // <motion.div variants={animateCard} animate="animateOne">
+    <motion.div
+      variants={animateCard}
+      // initial="hidden"
+      animate="animateOne"
+      className="p-4 lg:py-16 rounded-3xl user-card relative xl:fixed hover:bg-gray-700 hover:ease-in-out hover:duration-1000 text-white bg-[#212D40] w-100 xl:w-1/4 2xl:w-auto"
+    >
       {UserData.map((e, i) => (
         <div
           key={i}
@@ -62,6 +100,7 @@ export default function SidebarUser() {
           </p>
         </div>
       ))}
-    </div>
+    </motion.div>
+    // </motion.div>
   );
 }

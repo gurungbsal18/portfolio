@@ -1,15 +1,54 @@
+"use client";
 import React from "react";
 import SkillsSection from "./SkillsSection";
 import ExperienceHistory from "./ExperienceHistory";
 import Project from "./Project";
-import Responsibilities from "./Responsibilities";
 import { FaHand } from "react-icons/fa6";
+import { m, motion } from "framer-motion";
 
 export default function MainContainer() {
+  const mainContainer = {
+    hidden: {
+      opacity: 0,
+      y: -20,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.7,
+        ease: "easeInOut",
+      },
+    },
+  };
+
+  const handMotion = {
+    handAnimation: {
+      x: [0, 4, -4, 0],
+      rotate: [0, 10, -10, 0],
+      transition: {
+        repeat: Infinity,
+        repeatType: "loop",
+        duration: 0.8,
+        ease: "easeInOut",
+      },
+    },
+  };
+
   return (
     <div className="flex flex-col gap-32">
-      <div className="flex flex-col gap-2 mt-16 xl:mt-0">
-        <h4 className="text-4xl font-bold text-primary">Hi</h4>
+      <motion.div
+        variants={mainContainer}
+        initial="hidden"
+        animate="visible"
+        className="flex flex-col gap-2 mt-16 xl:mt-0"
+      >
+        <h4 className="text-4xl font-bold text-primary flex items-center gap-2">
+          Hi{" "}
+          <motion.span variants={handMotion} animate="handAnimation">
+            <FaHand className="text-warning" />
+          </motion.span>
+        </h4>
         <p className="text-justify">
           I specialize in crafting exceptional digital experiences through a
           blend of UI/UX expertise and frontend web development. With a strong
@@ -23,9 +62,11 @@ export default function MainContainer() {
           is both impactful and user-centric. Let’s build something amazing
           together!
         </p>
-      </div>
+      </motion.div>
 
-      <SkillsSection />
+      <motion.div variants={mainContainer} initial="hidden" animate="visible">
+        <SkillsSection />
+      </motion.div>
       <ExperienceHistory />
       <Project />
       {/* <Responsibilities /> */}
