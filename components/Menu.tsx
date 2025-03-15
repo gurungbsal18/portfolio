@@ -36,7 +36,7 @@ export default function Menu() {
   };
 
   return (
-    <div className="sticky top-0 bg-white shadow-md z-10">
+    <div className="sticky top-0 bg-primary-50 shadow-md z-10">
       <div className="container py-4 px-8 flex justify-between items-center w-full">
         {/* <Image src="/Logo.png" alt="bishal" height={150} width={150} /> */}
 
@@ -102,7 +102,7 @@ export default function Menu() {
           {menuOpen && (
             <>
               <div
-                className={`flex flex-col items-start gap-8 absolute bg-gray-400 p-16 top-16 left-0 w-full shadow-2xl transition-all duration-500 ease-in-out ${menuOpen ? "translate-y-0 opacity-100 visible" : "traslate-y-10 opacity-0 invisible"}`}
+                className={`flex flex-col items-start gap-8 absolute bg-primary-50 p-16 top-20 left-0 w-full shadow-2xl transition-all duration-500 ease-in-out ${menuOpen ? "translate-y-0 opacity-100 visible" : "traslate-y-10 opacity-0 invisible"}`}
               >
                 <Link
                   href={"/documents/Bishal-Gurung-CV.pdf"}
