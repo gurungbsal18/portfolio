@@ -10,7 +10,7 @@ import { MdMarkEmailRead } from "react-icons/md";
 
 export default function SidebarUser() {
   return (
-    <div className="p-4 rounded-3xl user-card relative xl:fixed hover:bg-gray-700 hover:ease-in-out hover:duration-1000 text-white bg-[#212D40] w-100 xl:w-1/4 2xl:w-auto">
+    <div className="p-4 lg:py-16 rounded-3xl user-card relative xl:fixed hover:bg-gray-700 hover:ease-in-out hover:duration-1000 text-white bg-[#212D40] w-100 xl:w-1/4 2xl:w-auto">
       {UserData.map((e, i) => (
         <div
           key={i}
