@@ -14,13 +14,20 @@
 }
 
 .project-card {
+  height: 400px;
+  @media (max-width: 1024px) {
+    height: auto;
+  }
   .image-section {
     overflow: hidden;
   }
   &:hover {
-    img {
-      scale: 1.1;
-      transition: ease-in-out 0.5s;
-    }
+    // img {
+    //   scale: 1.1;
+    //   transition: ease-in-out 0.5s;
+    // }
+    margin-top: -15px;
+    transition: ease-in-out 0.5s;
+    overflow: hidden;
   }
 }
