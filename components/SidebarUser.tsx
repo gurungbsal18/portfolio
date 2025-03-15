@@ -10,11 +10,11 @@ import { MdMarkEmailRead } from "react-icons/md";
 
 export default function SidebarUser() {
   return (
-    <div className="p-4 py-16 lg:p-16 rounded-3xl user-card relative xl:fixed hover:bg-gray-700 hover:ease-in-out hover:duration-1000 text-white bg-[#212D40]">
+    <div className="p-4 py-16 lg:p-16 rounded-3xl user-card relative xl:fixed hover:bg-gray-700 hover:ease-in-out hover:duration-1000 text-white bg-[#212D40] w-100 xl:w-1/4">
       {UserData.map((e, i) => (
         <div
           key={i}
-          className="flex flex-col gap-8 justify-between items-center"
+          className="flex flex-col gap-4 justify-between items-center"
         >
           <Image
             src={e.img}
@@ -24,13 +24,11 @@ export default function SidebarUser() {
             className="user-img"
           />
           <div className="flex flex-col items-center gap-2">
-            <h2 className="text-2xl lg:text-4xl">{e.name}</h2>
-            <h2 className="text-lg lg:text-2xl font-bold text-center">
-              {e.position}
-            </h2>
+            <h2 className="text-2xl">{e.name}</h2>
+            <h2 className="text-lg font-bold text-center">{e.position}</h2>
           </div>
 
-          <div className="flex flex-col lg:flex-row justify-between gap-8">
+          <div className="flex flex-col gap-4 justify-between">
             <Link href={e.whatsApp}>
               <Button radius="sm" size="lg" className="w-full" color="warning">
                 <IoLogoWhatsapp size={24} color="green" />
