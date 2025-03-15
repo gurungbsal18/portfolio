@@ -30,7 +30,7 @@ export default function MainContainer() {
       <SkillsSection />
       <ExperienceHistory />
       <Project />
-      <Responsibilities />
+      {/* <Responsibilities /> */}
     </div>
   );
 }
