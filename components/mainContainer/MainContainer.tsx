@@ -9,9 +9,7 @@ export default function MainContainer() {
   return (
     <div className="flex flex-col gap-32">
       <div className="flex flex-col gap-2 mt-16 xl:mt-0">
-        <h4 className="text-4xl font-bold text-primary">
-          Hi, my name is Bishal Gurung
-        </h4>
+        <h4 className="text-4xl font-bold text-primary">Hi</h4>
         <p className="text-justify">
           I specialize in crafting exceptional digital experiences through a
           blend of UI/UX expertise and frontend web development. With a strong
