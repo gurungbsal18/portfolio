@@ -1,7 +1,7 @@
+import { Analytics } from "@vercel/analytics/react";
 import "@/styles/globals.css";
 import "@/styles/scss/style.scss";
 import { Metadata, Viewport } from "next";
-import { Link } from "@heroui/link";
 import clsx from "clsx";
 
 import { Providers } from "./providers";
@@ -35,6 +35,7 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
+      <Analytics />
       <head />
       <body
         className={clsx(
