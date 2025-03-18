@@ -47,7 +47,7 @@ export default function RootLayout({
           <div className="relative flex flex-col h-screen">
             <Menu />
             <main className="container pt-16 px-6 flex-grow">{children}</main>
-            <footer className="w-full flex items-center justify-center py-3 mt-5 bg-primary w-full">
+            <footer className="w-full flex items-center justify-center py-3 mt-5 bg-primary">
               {/* <p className="text-white text-xs">
                 Design & Develop By Bishal Gurung
               </p> */}

@@ -36,7 +36,7 @@ export default function Project() {
       </div>
 
       <p className="text-primary  text-2xl font-bold mt-16">Other Projects:</p>
-      <p className="p-2 bg-red-200 text-red-700 text-sm rounded my-5">
+      <p className="p-2 bg-yellow-300 text-yellow-700 text-sm rounded my-5">
         Unable to share other projects link due to client privacy and policy.
       </p>
       <ul className="list-disc px-8">
