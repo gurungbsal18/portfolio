@@ -95,7 +95,7 @@ export default function Menu() {
           {/* <Button radius="sm" color="primary">
             <HiOutlineClipboardDocumentList size={24} /> Explore Projects
           </Button> */}
-          <Link href={"/documents/Bishal-Gurung-CV.pdf"} target="_blank">
+          <Link href={"/documents/Bishal_Gurung_CV.pdf"} target="_blank">
             <Button radius="sm" color="primary" className="flex items-center">
               <CgFileDocument size={24} /> View CV
             </Button>
