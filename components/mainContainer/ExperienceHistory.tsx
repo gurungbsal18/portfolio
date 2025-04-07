@@ -13,9 +13,6 @@ export default function ExperienceHistory() {
   return (
     <div>
       <h4 className="text-4xl font-bold text-primary">Experience</h4>
-      <p className="text-lg font-semibold">
-        Total Experience: {totalYear} years
-      </p>
 
       <div className="flex flex-col gap-8 mt-8">
         {UserExperienceData.map((list) => (

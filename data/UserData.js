@@ -158,9 +158,9 @@ export const ProjectData = [
   {
     id: 4,
     title: "Baad Faad",
-    category: "Mobile App",
+    category: "Mobile App - Figma Mock",
     coverImage: "/images/projects/BaadFaad.webp",
-    link: "#",
+    link: "https://www.figma.com/proto/OELnJ0mTcY2P5d4doKPw2h/BaadFaad?page-id=0%3A1&node-id=7-76&p=f&viewport=646%2C275%2C0.09&t=WaxQiAGpy6xuPoST-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A81&show-proto-sidebar=1",
   },
   {
     id: 5,
@@ -168,5 +168,12 @@ export const ProjectData = [
     category: "Website",
     coverImage: "/images/projects/Hotel.webp",
     link: "https://hotel-website-five-nu.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Ecommerce",
+    category: "Website - Figma Mock",
+    coverImage: "/images/projects/Ecommerce.webp",
+    link: "https://www.figma.com/proto/b5GoBYncjdvcClCPtYy0hL/Ecommerce?page-id=0%3A1&node-id=2-2&viewport=586%2C375%2C0.08&t=fUQOuvYAuzlvRWyR-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2%3A2",
   },
 ];
