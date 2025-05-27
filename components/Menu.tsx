@@ -89,7 +89,7 @@ export default function Menu() {
                 className={`flex flex-col items-start gap-8 absolute bg-primary-50 p-16 top-20 left-0 w-full shadow-2xl transition-all duration-500 ease-in-out ${menuOpen ? "translate-y-0 opacity-100 visible" : "traslate-y-10 opacity-0 invisible"}`}
               >
                 <Link
-                  href={"/documents/Bishal-Gurung_CV.pdf"}
+                  href={"/documents/Bishal_Gurung_CV.pdf"}
                   target="_blank"
                   className="w-full"
                 >
