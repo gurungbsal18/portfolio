@@ -136,31 +136,32 @@ export const UserExperienceData = [
 export const ProjectData = [
   {
     id: 1,
+    title: "Swift Holidays",
+    category: "Mobile App - Figma Mock",
+    coverImage: "/images/projects/swift-holidays.png",
+    link: "https://www.figma.com/proto/Bc5iZQqspjFjZNMlWdT2g9/Swift-Holidays-Mobile-App?node-id=194-2414&t=PlqOmf1qGjAHvoQA-1&starting-point-node-id=194%3A2414",
+  },
+  {
+    id: 2,
     title: "Alpine Club Of Himalaya",
     category: "Website",
     coverImage: "/images/projects/Alpine-website.webp",
     link: "https://alpineclubofhimalaya.com",
   },
   {
-    id: 2,
+    id: 3,
     title: "Bond Spotless",
     category: "Website",
     coverImage: "/images/projects/Bond-spotless.webp",
     link: "https://www.bondspotless.com.au/",
   },
-  {
-    id: 3,
-    title: "Adventure Master Trek",
-    category: "Website",
-    coverImage: "/images/projects/Adventure-master.webp",
-    link: "https://adventuremastertrek.com/",
-  },
+
   {
     id: 4,
-    title: "Baad Faad",
-    category: "Mobile App - Figma Mock",
-    coverImage: "/images/projects/BaadFaad.webp",
-    link: "https://www.figma.com/proto/OELnJ0mTcY2P5d4doKPw2h/BaadFaad?page-id=0%3A1&node-id=7-76&p=f&viewport=646%2C275%2C0.09&t=WaxQiAGpy6xuPoST-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A81&show-proto-sidebar=1",
+    title: "Female Guide Holidays",
+    category: "Website",
+    coverImage: "/images/projects/female-guide-holidays.png",
+    link: "https://femaleguideholidays.vercel.app/",
   },
   {
     id: 5,
@@ -168,12 +169,5 @@ export const ProjectData = [
     category: "Website",
     coverImage: "/images/projects/Hotel.webp",
     link: "https://hotel-website-five-nu.vercel.app/",
-  },
-  {
-    id: 6,
-    title: "Ecommerce",
-    category: "Website - Figma Mock",
-    coverImage: "/images/projects/Ecommerce.webp",
-    link: "https://www.figma.com/proto/b5GoBYncjdvcClCPtYy0hL/Ecommerce?page-id=0%3A1&node-id=2-2&viewport=586%2C375%2C0.08&t=fUQOuvYAuzlvRWyR-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2%3A2",
   },
 ];

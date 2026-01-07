@@ -42,7 +42,7 @@ export default function Project() {
       <ul className="list-disc px-8">
         <li>Timecard App</li>
         <li>Learning Management System</li>
-        <li>Performance Evaluation</li>
+        <li>Performance Evaluation App</li>
         <li>Invoice Management System</li>
         <li>Hotel Management System</li>
       </ul>
