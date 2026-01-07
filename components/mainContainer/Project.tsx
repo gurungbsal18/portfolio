@@ -12,7 +12,7 @@ export default function Project() {
         {ProjectData.map((list) => (
           <div
             key={list.id}
-            className="border-1 border-gray-200 rounded-lg overflow-hidden shadow-2xl col-span-1 lg:col-span-6 project-card"
+            className="bg-white border-1 border-gray-200 rounded-lg overflow-hidden hover:shadow-2xl transition-shadow duration-500 col-span-1 lg:col-span-6 project-card"
           >
             <Link href={list?.link} target="_blank">
               <div className="image-section">
